@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE122A441E76922F009F56D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A431E76922F009F56D6 /* AppDelegate.swift */; };
+		AE122A461E76922F009F56D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A451E76922F009F56D6 /* ViewController.swift */; };
+		AE122A491E76922F009F56D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE122A471E76922F009F56D6 /* Main.storyboard */; };
+		AE122A4B1E76922F009F56D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE122A4A1E76922F009F56D6 /* Assets.xcassets */; };
+		AE122A4E1E76922F009F56D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE122A4C1E76922F009F56D6 /* LaunchScreen.storyboard */; };
+		AE122A591E76922F009F56D6 /* Cheer_TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A581E76922F009F56D6 /* Cheer_TripTests.swift */; };
+		AE122A641E76922F009F56D6 /* Cheer_TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A631E76922F009F56D6 /* Cheer_TripUITests.swift */; };
+		AE122A721E76925D009F56D6 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A711E76925D009F56D6 /* SignIn.swift */; };
+		AE122A741E769F6B009F56D6 /* FeedBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A731E769F6B009F56D6 /* FeedBack.swift */; };
+		AE122A781E76B352009F56D6 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AE122A771E76B352009F56D6 /* Cartfile */; };
+		AE122A7E1E76B611009F56D6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE122A791E76B4A6009F56D6 /* SwiftyJSON.framework */; };
+		AE122A811E76C220009F56D6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE122A801E76C220009F56D6 /* Alamofire.framework */; };
+		AE122A831E76C653009F56D6 /* ThanksGiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE122A821E76C653009F56D6 /* ThanksGiving.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE122A551E76922F009F56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE122A381E76922E009F56D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE122A3F1E76922E009F56D6;
+			remoteInfo = "Cheer Trip";
+		};
+		AE122A601E76922F009F56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE122A381E76922E009F56D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE122A3F1E76922E009F56D6;
+			remoteInfo = "Cheer Trip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE122A401E76922F009F56D6 /* Cheer Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheer Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE122A431E76922F009F56D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE122A451E76922F009F56D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE122A481E76922F009F56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE122A4A1E76922F009F56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE122A4D1E76922F009F56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE122A4F1E76922F009F56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE122A541E76922F009F56D6 /* Cheer TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheer TripTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE122A581E76922F009F56D6 /* Cheer_TripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheer_TripTests.swift; sourceTree = "<group>"; };
+		AE122A5A1E76922F009F56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE122A5F1E76922F009F56D6 /* Cheer TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheer TripUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE122A631E76922F009F56D6 /* Cheer_TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheer_TripUITests.swift; sourceTree = "<group>"; };
+		AE122A651E76922F009F56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE122A711E76925D009F56D6 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		AE122A731E769F6B009F56D6 /* FeedBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBack.swift; sourceTree = "<group>"; };
+		AE122A771E76B352009F56D6 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		AE122A791E76B4A6009F56D6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Cheer Trip/Carthage/Build/iOS/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		AE122A801E76C220009F56D6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Cheer Trip/Carthage/Build/iOS/Alamofire.framework"; sourceTree = "<group>"; };
+		AE122A821E76C653009F56D6 /* ThanksGiving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksGiving.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE122A3D1E76922E009F56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE122A7E1E76B611009F56D6 /* SwiftyJSON.framework in Frameworks */,
+				AE122A811E76C220009F56D6 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE122A511E76922F009F56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE122A5C1E76922F009F56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE122A371E76922E009F56D6 = {
+			isa = PBXGroup;
+			children = (
+				AE122A791E76B4A6009F56D6 /* SwiftyJSON.framework */,
+				AE122A421E76922F009F56D6 /* Cheer Trip */,
+				AE122A571E76922F009F56D6 /* Cheer TripTests */,
+				AE122A621E76922F009F56D6 /* Cheer TripUITests */,
+				AE122A411E76922F009F56D6 /* Products */,
+				AE122A7F1E76C220009F56D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE122A411E76922F009F56D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE122A401E76922F009F56D6 /* Cheer Trip.app */,
+				AE122A541E76922F009F56D6 /* Cheer TripTests.xctest */,
+				AE122A5F1E76922F009F56D6 /* Cheer TripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE122A421E76922F009F56D6 /* Cheer Trip */ = {
+			isa = PBXGroup;
+			children = (
+				AE122A431E76922F009F56D6 /* AppDelegate.swift */,
+				AE122A451E76922F009F56D6 /* ViewController.swift */,
+				AE122A471E76922F009F56D6 /* Main.storyboard */,
+				AE122A4A1E76922F009F56D6 /* Assets.xcassets */,
+				AE122A4C1E76922F009F56D6 /* LaunchScreen.storyboard */,
+				AE122A4F1E76922F009F56D6 /* Info.plist */,
+				AE122A711E76925D009F56D6 /* SignIn.swift */,
+				AE122A731E769F6B009F56D6 /* FeedBack.swift */,
+				AE122A771E76B352009F56D6 /* Cartfile */,
+				AE122A821E76C653009F56D6 /* ThanksGiving.swift */,
+			);
+			path = "Cheer Trip";
+			sourceTree = "<group>";
+		};
+		AE122A571E76922F009F56D6 /* Cheer TripTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE122A581E76922F009F56D6 /* Cheer_TripTests.swift */,
+				AE122A5A1E76922F009F56D6 /* Info.plist */,
+			);
+			path = "Cheer TripTests";
+			sourceTree = "<group>";
+		};
+		AE122A621E76922F009F56D6 /* Cheer TripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE122A631E76922F009F56D6 /* Cheer_TripUITests.swift */,
+				AE122A651E76922F009F56D6 /* Info.plist */,
+			);
+			path = "Cheer TripUITests";
+			sourceTree = "<group>";
+		};
+		AE122A7F1E76C220009F56D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE122A801E76C220009F56D6 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE122A3F1E76922E009F56D6 /* Cheer Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE122A681E76922F009F56D6 /* Build configuration list for PBXNativeTarget "Cheer Trip" */;
+			buildPhases = (
+				AE122A3C1E76922E009F56D6 /* Sources */,
+				AE122A3D1E76922E009F56D6 /* Frameworks */,
+				AE122A3E1E76922E009F56D6 /* Resources */,
+				AE122A7D1E76B514009F56D6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheer Trip";
+			productName = "Cheer Trip";
+			productReference = AE122A401E76922F009F56D6 /* Cheer Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE122A531E76922F009F56D6 /* Cheer TripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE122A6B1E76922F009F56D6 /* Build configuration list for PBXNativeTarget "Cheer TripTests" */;
+			buildPhases = (
+				AE122A501E76922F009F56D6 /* Sources */,
+				AE122A511E76922F009F56D6 /* Frameworks */,
+				AE122A521E76922F009F56D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE122A561E76922F009F56D6 /* PBXTargetDependency */,
+			);
+			name = "Cheer TripTests";
+			productName = "Cheer TripTests";
+			productReference = AE122A541E76922F009F56D6 /* Cheer TripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE122A5E1E76922F009F56D6 /* Cheer TripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE122A6E1E76922F009F56D6 /* Build configuration list for PBXNativeTarget "Cheer TripUITests" */;
+			buildPhases = (
+				AE122A5B1E76922F009F56D6 /* Sources */,
+				AE122A5C1E76922F009F56D6 /* Frameworks */,
+				AE122A5D1E76922F009F56D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE122A611E76922F009F56D6 /* PBXTargetDependency */,
+			);
+			name = "Cheer TripUITests";
+			productName = "Cheer TripUITests";
+			productReference = AE122A5F1E76922F009F56D6 /* Cheer TripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE122A381E76922E009F56D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MarwenDoukh;
+				TargetAttributes = {
+					AE122A3F1E76922E009F56D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EJY66T537X;
+						ProvisioningStyle = Automatic;
+					};
+					AE122A531E76922F009F56D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE122A3F1E76922E009F56D6;
+					};
+					AE122A5E1E76922F009F56D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE122A3F1E76922E009F56D6;
+					};
+				};
+			};
+			buildConfigurationList = AE122A3B1E76922E009F56D6 /* Build configuration list for PBXProject "Cheer Trip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE122A371E76922E009F56D6;
+			productRefGroup = AE122A411E76922F009F56D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE122A3F1E76922E009F56D6 /* Cheer Trip */,
+				AE122A531E76922F009F56D6 /* Cheer TripTests */,
+				AE122A5E1E76922F009F56D6 /* Cheer TripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE122A3E1E76922E009F56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE122A4E1E76922F009F56D6 /* LaunchScreen.storyboard in Resources */,
+				AE122A4B1E76922F009F56D6 /* Assets.xcassets in Resources */,
+				AE122A781E76B352009F56D6 /* Cartfile in Resources */,
+				AE122A491E76922F009F56D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE122A521E76922F009F56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE122A5D1E76922F009F56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE122A7D1E76B514009F56D6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Cheer Trip/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Cheer Trip/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE122A3C1E76922E009F56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE122A461E76922F009F56D6 /* ViewController.swift in Sources */,
+				AE122A721E76925D009F56D6 /* SignIn.swift in Sources */,
+				AE122A741E769F6B009F56D6 /* FeedBack.swift in Sources */,
+				AE122A831E76C653009F56D6 /* ThanksGiving.swift in Sources */,
+				AE122A441E76922F009F56D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE122A501E76922F009F56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE122A591E76922F009F56D6 /* Cheer_TripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE122A5B1E76922F009F56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE122A641E76922F009F56D6 /* Cheer_TripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE122A561E76922F009F56D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE122A3F1E76922E009F56D6 /* Cheer Trip */;
+			targetProxy = AE122A551E76922F009F56D6 /* PBXContainerItemProxy */;
+		};
+		AE122A611E76922F009F56D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE122A3F1E76922E009F56D6 /* Cheer Trip */;
+			targetProxy = AE122A601E76922F009F56D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE122A471E76922F009F56D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE122A481E76922F009F56D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE122A4C1E76922F009F56D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE122A4D1E76922F009F56D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE122A661E76922F009F56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE122A671E76922F009F56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE122A691E76922F009F56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EJY66T537X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cheer\\ Trip/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Cheer\\ Trip/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Cheer\\ Trip/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Cheer Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quick.ma.Cheer-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE122A6A1E76922F009F56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EJY66T537X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cheer\\ Trip/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Cheer\\ Trip/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Cheer\\ Trip/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Cheer Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quick.ma.Cheer-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AE122A6C1E76922F009F56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cheer TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quick.ma.Cheer-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheer Trip.app/Cheer Trip";
+			};
+			name = Debug;
+		};
+		AE122A6D1E76922F009F56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cheer TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quick.ma.Cheer-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheer Trip.app/Cheer Trip";
+			};
+			name = Release;
+		};
+		AE122A6F1E76922F009F56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Cheer TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quick.ma.Cheer-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cheer Trip";
+			};
+			name = Debug;
+		};
+		AE122A701E76922F009F56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Cheer TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quick.ma.Cheer-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cheer Trip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE122A3B1E76922E009F56D6 /* Build configuration list for PBXProject "Cheer Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE122A661E76922F009F56D6 /* Debug */,
+				AE122A671E76922F009F56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE122A681E76922F009F56D6 /* Build configuration list for PBXNativeTarget "Cheer Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE122A691E76922F009F56D6 /* Debug */,
+				AE122A6A1E76922F009F56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE122A6B1E76922F009F56D6 /* Build configuration list for PBXNativeTarget "Cheer TripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE122A6C1E76922F009F56D6 /* Debug */,
+				AE122A6D1E76922F009F56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE122A6E1E76922F009F56D6 /* Build configuration list for PBXNativeTarget "Cheer TripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE122A6F1E76922F009F56D6 /* Debug */,
+				AE122A701E76922F009F56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE122A381E76922E009F56D6 /* Project object */;
+}
